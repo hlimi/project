@@ -1,5 +1,7 @@
 package penguinGame;
 
+import javax.swing.JOptionPane;
+
 public class StopThread extends Thread {
 	private Antarctic adven;
 	private int START;
@@ -20,7 +22,7 @@ public class StopThread extends Thread {
 		System.out.println("stopthread");
 		// while (adven.hurdle) {
 		switch (a) {
-		case 1:
+		case 1: // 큰 장애물
 			while (adven.hurdle) {
 				System.out.println();
 				if (adven.getHurldleY() > 500) {
@@ -29,7 +31,7 @@ public class StopThread extends Thread {
 				}
 			}
 			break;
-		case 2:
+		case 2: // 작은 장애물
 			while (adven.hurdle) {
 				System.out.println();
 				if (adven.getSHurdleY() > 510) {
@@ -52,6 +54,7 @@ public class StopThread extends Thread {
 				if (adven.getCnt() == 0) {
 					adven.repaint();
 					adven.hurdle = false;
+					JOptionPane.showMessageDialog(null,"GAME OVER","GAME OVER",JOptionPane.INFORMATION_MESSAGE);
 				}
 			}
 			

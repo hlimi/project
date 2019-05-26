@@ -63,6 +63,7 @@ public class Antarctic extends JFrame {
 	private ImageIcon time = new ImageIcon();
 	boolean timeM = true;
 	
+	
 	// ∞‘¿” ∏ÿ√„
 	boolean hurdle = true;
 	
