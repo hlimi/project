@@ -16,7 +16,7 @@ import java.awt.event.WindowEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
+ 
 public class Antarctic extends JFrame {
 	Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
 	// 프레임 크기

@@ -1,5 +1,5 @@
 package penguinGame;
-
+ 
 import javax.swing.JOptionPane;
 
 public class StopThread extends Thread {

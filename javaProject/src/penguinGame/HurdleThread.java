@@ -1,5 +1,5 @@
 package penguinGame;
-
+ 
 public class HurdleThread extends Thread {
 	private Antarctic adven;
 	////////////////////////////// 큰 장애물

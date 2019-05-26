@@ -1,5 +1,5 @@
 package penguinGame;
-
+ 
 public class SmallHDThread extends Thread {
 	private Antarctic adven;
 	////////////////////////////// 작은 장애물

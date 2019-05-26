@@ -1,7 +1,7 @@
 package penguinGame;
 
 import javax.swing.ImageIcon;
-
+ 
 public class TimeThread extends Thread {
 	private Antarctic adven;
 	private ImageIcon img;
