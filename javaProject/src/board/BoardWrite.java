@@ -202,7 +202,7 @@ public class BoardWrite extends JFrame  {
 				jta.setFont(new Font("µ¸¿ò", Font.PLAIN, 12));
 			}
 		});
-		
+		 
 		jpButton.add(jbtModify=new JButton("¼öÁ¤"));
 		jbtModify.addActionListener(new ActionListener() {
 			

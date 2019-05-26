@@ -1,5 +1,5 @@
 package board;
-
+ 
 import javax.swing.table.AbstractTableModel;
 
 public class BoardJTable extends AbstractTableModel {

@@ -1,5 +1,5 @@
 package board;
-
+ 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.FlowLayout;
