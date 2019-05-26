@@ -9,7 +9,7 @@ public class BoardJTable extends AbstractTableModel {
 	public BoardJTable() {
 		super();
 	}
-
+ 
 	public BoardJTable(Object[][] data) {
 		super();
 		this.data = data;

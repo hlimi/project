@@ -8,7 +8,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 
- 
+
 public class ServiceUtil {
 
 	private static Connection con;

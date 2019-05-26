@@ -43,7 +43,7 @@ import java.sql.SQLException;
 		Connection con=ServiceUtil.getConnection();
 		PreparedStatement psmt=null;
 		
-		 
+		
 	// 글쓴이 검색
 		if(value.equals("글쓴이")) {
 			sql=searchSql("글쓴이",search);
